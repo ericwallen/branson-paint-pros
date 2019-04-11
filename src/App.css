@@ -1,33 +1,134 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+	text-align: center;
+	min-width: 600px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  
+  .main-video{
+	width: 100%;
   }
-}
+  
+  .main-video-container{
+	height: 100vh;
+	overflow: hidden;
+  }
+  
+  .logo{
+	margin-top: 19px;
+	margin-left: 15px;
+	margin-right: 15px;
+	max-width: 270px;
+	height: 36px;
+  }
+  
+  .white-bg{
+	background-color: white
+  }
+  
+  .white{
+	color: white;
+	font-family: 'Ranga', cursive;
+	font-size: 55px;
+  }
+  
+  .learn-more{
+	border: 2px solid #fff;
+	width: 80px;
+	height: 80px;
+	border-radius: 100px;
+	margin-bottom: 20px;
+  }
+  
+  .learn-more p{
+	padding-top: 30px;
+	color: white;
+	font-size: 15px;
+	font-family: 'Dancing Script', cursive;
+  }
+  
+  a:hover, a:visited, a:link, a:active
+  {
+	  text-decoration: none;
+  }
+  
+  .second-row{
+	display: grid;
+	grid-template-columns: 1fr 1fr
+  }
+  
+  
+  .project-types{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+	margin: 5px;
+  }
+  
+  .project-types p{
+	color: white;
+	vertical-align: middle;
+  }
+  
+   .project-types-info h1{
+	padding-top: 50px;
+	color: #CCC;
+	font-size: 45px;
+	font-family: 'Ranga', cursive;
+  }
+  
+  .project-types-info h2{
+   padding-top: 20px;
+   padding-left: 40px;
+   padding-right: 40px;
+   color: #666;
+   font-size: 16px;
+  
+  }
+  
+  img{
+	width: 100%
+  }
+  
+  
+  .starting-at{
+	font-size: 20px;
+	font-family: 'Exo 2', sans-serif;
+	background: -webkit-linear-gradient(#eee, #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 0px;
+  }
+  
+  .starting-at-price{
+	font-size: 35px;
+  
+  }
+  
+  
+  .fourth-row{
+	padding: 60px 40px 60px 40px;
+	color: white;
+	background: #666;
+	margin-top: 5px;
+	/* font-size: 20px; */
+	border-bottom: 10px solid rgb(51, 51, 51)
+  }
+  
+  
+  #map {
+	height: 700px;  /* The height is 400 pixels */
+	width: 100%;  /* The width is the width of the web page */
+  }
+  
+  .second-row h1{
+	  font-family: 'Ranga', cursive;
+	  padding: 40px 20px 42px 20px;
+	  color: #CCC;
+	  font-size: 45px;
+  }
+  
+  
+  .second-row p{
+	  margin: auto;
+	  padding: 40px 20px 42px 20px;
+  }
