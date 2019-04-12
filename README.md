@@ -1,9 +1,14 @@
 
+
+
+
 # Branson Paint Pros
 
 Website for Branson Pain Pros
 
 https://bransonpaintpros.com/
+
+![Branson Paint Pros](src/assets/logo.png)
 
 ## Tech
 Language: JavaScript
@@ -18,7 +23,7 @@ Github pages
 Command: npm run deploy
 
 ## Credits
-developer: Eric Wallen
+Developer: Eric Wallen
 
 
 
