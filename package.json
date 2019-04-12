@@ -2,7 +2,7 @@
   "name": "branson-paint-pros",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bransonpaintpros.com",
+  "homepage": "https://bransonpaintpros.com",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
