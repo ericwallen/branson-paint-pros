@@ -45,7 +45,7 @@ var projectTypes = [
     title: "Master Bedroom",
     photo: kitchen,
     active: false,
-    startingAt: '299',
+    startingAt: '389',
     summary: 'We are here to help you have a stunning master bedroom design. High quality and accurately applied paint can be significant to getting that feel you want.'
   },
   {
@@ -53,7 +53,7 @@ var projectTypes = [
     title: "Bathroom",
     photo: kitchen,
     active: false,
-    startingAt: '299',
+    startingAt: '309',
     summary: 'Some bathrooms are small but the choice of paint you use can either make them smaller or feel larger than life itself. Let us help you make a confortable, usable and inviting environment.'
   },
   {
@@ -61,7 +61,7 @@ var projectTypes = [
     title: "Floors",
     photo: kitchen,
     active: false,
-    startingAt: '299',
+    startingAt: '599',
     summary: 'Floors can range from rustic to modern with a large array of finishes to be implemented. We can do anytype of stain, polymer or protectant there is.'
   },
   {
@@ -69,7 +69,7 @@ var projectTypes = [
     title: "Garage",
     photo: kitchen,
     active: false,
-    startingAt: '299',
+    startingAt: '339',
     summary: 'Often considered but also overlooked - the garage. This space can be a place for junk or another usable atheistically pleasing part of your home'
   },
   {

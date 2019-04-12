@@ -4,13 +4,13 @@
 
 # Branson Paint Pros
 
-Website for Branson Pain Pros
+Website for Branson Paint Pros
 
 https://bransonpaintpros.com/
 
 ![Branson Paint Pros](src/assets/logo.png)
 
-## Tech
+## Technologies
 Language: JavaScript
 
 Front End Framework: React
@@ -18,9 +18,9 @@ Front End Framework: React
 CSS Framework: UIkit
 
 ## Deployment
-Github pages
+Hosting: Github pages
 
-Command: npm run deploy
+CLI Command: npm run deploy
 
 ## Credits
 Developer: Eric Wallen
