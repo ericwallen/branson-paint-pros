@@ -5,6 +5,7 @@ import kitchen from './assets/kitchen.jpg'
 import deck from './assets/deck.jpg'
 import exterior from './assets/exterior.jpg'
 import dinning from './assets/dinning.jpg'
+import paintVideo from './assets/paint.mp4'
 
 
 var projectTypes = [
@@ -140,7 +141,7 @@ componentDidMount(){
           {eachItem.active === true &&
             <div>
               <h1>{eachItem.title}</h1>
-              <p className="starting-at">$<span className="starting-at-price">{eachItem.startingAt}</span> and up</p>
+              {/* <p className="starting-at">$<span className="starting-at-price">{eachItem.startingAt}</span> and up</p> */}
               <h2>{eachItem.summary}</h2>
             </div>
           }
@@ -151,13 +152,19 @@ componentDidMount(){
       <div className="App">
 
 
-       
+<div className="uk-cover-container uk-height-medium">
+<div class="uk-overlay uk-position-top">
+<img src={logo} alt="Branson Mo Painters" className="logo"/>
+                          <h3 style={{marginTop: 25}}>(417) 598-8094</h3>
+            </div>
+
+    <video style={{width: '100%', height: 'auto'}} src={paintVideo} autoPlay loop muted ></video>
+</div>
 
            
 
 
-                          <img src={logo} alt="Branson Mo Painterss" className="logo"/>
-                          <h3 style={{marginTop: 25}}>(417) 598-8094</h3>
+                         
                           
         
 
