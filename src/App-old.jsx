@@ -6,6 +6,7 @@ import deck from './assets/deck.jpg'
 import exterior from './assets/exterior.jpg'
 import dinning from './assets/dinning.jpg'
 import paintVideo from './assets/paint.mp4'
+import BlankModal from './components/BlankModal'
 
 
 var projectTypes = [
@@ -151,15 +152,34 @@ componentDidMount(){
     return (
       <div className="App">
 
+      <BlankModal 
+        showModal={true}
+      />
 
-<div className="uk-cover-container uk-height-medium">
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container" uk-navbar style={{position: 'relative', zIndex: 980}}>
+
+      <div className="nav-grid">
+        <img src={logo} alt="Branson Mo Painters" className="logo"/>
+        <p style={{marginTip: '4px', fontSize: '24px', fontWeight: '700', fontStyle: 'italic'}}>417-598-8094</p>
+        <div style={{textAlign: 'right', margin: '20px 20px 0px 0px'}}>
+        <button className="green-button">Get a quote</button>
+        </div>
+        
+      </div>
+      
+    </nav>
+</div>
+
+
+{/* <div className="uk-cover-container uk-height-medium">
 <div class="uk-overlay uk-position-top">
 <img src={logo} alt="Branson Mo Painters" className="logo"/>
                           <h3 style={{marginTop: 25}}>(417) 598-8094</h3>
             </div>
 
     <video style={{width: '100%', height: 'auto'}} src={paintVideo} autoPlay loop muted ></video>
-</div>
+</div> */}
 
            
 

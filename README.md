@@ -18,7 +18,7 @@ Front End Framework: React
 CSS Framework: UIkit
 
 ## Deployment
-Hosting: Github pages
+Hosting: Firebase Hosting
 
 CLI Command: npm run deploy
 
